@@ -1,0 +1,94 @@
+{
+  "id": "Project",
+  "projectId": "2N7mWfzdD3nxD7GVqnCIgU",
+  "author": "WALTERS\\jasonv",
+  "createdAt": "2020-04-30T10:43:02",
+  "schema": "IFC2X3",
+  "creatingApplication": "Tekla Structures 2018i Service Pack 6, IFC Export Version: 4.0.0.0 Dec  2 2019",
+  "metaObjects": [
+    {
+      "id": "2N7mWfzdD3nxD7GVqnCIgU",
+      "name": "Project",
+      "type": "IfcProject",
+      "parent": null
+    },
+    {
+      "id": "2gWGTlbjbCXhgI5W$7VulE",
+      "name": "Site",
+      "type": "IfcSite",
+      "parent": "2N7mWfzdD3nxD7GVqnCIgU"
+    },
+    {
+      "id": "1_OAUURJL3XxzIod5L9vD_",
+      "name": "Undefined",
+      "type": "IfcBuilding",
+      "parent": "2gWGTlbjbCXhgI5W$7VulE"
+    },
+    {
+      "id": "327Gn$MHfAtAEdyEFoXNGf",
+      "name": "Undefined",
+      "type": "IfcBuildingStorey",
+      "parent": "1_OAUURJL3XxzIod5L9vD_"
+    },
+    {
+      "id": "1Eiqyc0XT0c8QIVPef0d6Z",
+      "name": "Weld",
+      "type": "IfcFastener",
+      "parent": "327Gn$MHfAtAEdyEFoXNGf"
+    },
+    {
+      "id": "0kiPnOr2D01BytU2weG8_D",
+      "name": "Weld",
+      "type": "IfcFastener",
+      "parent": "327Gn$MHfAtAEdyEFoXNGf"
+    },
+    {
+      "id": "3KFK0GVQD0fRHJYPKQbNTy",
+      "name": "INFILL",
+      "type": "IfcElementAssembly",
+      "parent": "327Gn$MHfAtAEdyEFoXNGf"
+    },
+    {
+      "id": "0DeIY1fzfBYBzsEvKwgiiM",
+      "name": "INFILL",
+      "type": "IfcBeam",
+      "parent": "3KFK0GVQD0fRHJYPKQbNTy"
+    },
+    {
+      "id": "0H3zN6L_PEvhtdA$CDYB9V",
+      "name": "Bolt assembly",
+      "type": "IfcMechanicalFastener",
+      "parent": "3KFK0GVQD0fRHJYPKQbNTy"
+    },
+    {
+      "id": "1r0aXitwLCVhpd_pqp1Fbb",
+      "name": "ENDPLATE",
+      "type": "IfcDiscreteAccessory",
+      "parent": "3KFK0GVQD0fRHJYPKQbNTy"
+    },
+    {
+      "id": "0tecXDqD50Kv$zx5Ub2QAp",
+      "name": "Bolt assembly",
+      "type": "IfcMechanicalFastener",
+      "parent": "3KFK0GVQD0fRHJYPKQbNTy"
+    },
+    {
+      "id": "3zXcB$NyP30eLGflzpjkJf",
+      "name": "Bolt assembly",
+      "type": "IfcMechanicalFastener",
+      "parent": "3KFK0GVQD0fRHJYPKQbNTy"
+    },
+    {
+      "id": "1ORcCHz6H5aA$27MqRJvrw",
+      "name": "Bolt assembly",
+      "type": "IfcMechanicalFastener",
+      "parent": "3KFK0GVQD0fRHJYPKQbNTy"
+    },
+    {
+      "id": "3wxo_rO1D4DhLlqEXcuIrF",
+      "name": "Bolt assembly",
+      "type": "IfcMechanicalFastener",
+      "parent": "3KFK0GVQD0fRHJYPKQbNTy"
+    }
+  ]
+}
